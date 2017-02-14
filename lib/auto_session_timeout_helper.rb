@@ -8,7 +8,7 @@ module AutoSessionTimeoutHelper
       if (success == 'success' && remoteData == 'false')
         window.location.href = '/timeout';
     });
-    JS
+JS
 
     javascript_tag(code)
   end
